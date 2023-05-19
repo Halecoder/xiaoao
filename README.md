@@ -89,6 +89,8 @@ SET FOREIGN_KEY_CHECKS = 1;
 - 使用开源工具hutool生成UUID、时间戳
 - 全局异常统一处理，日志统一打印
 - mybatis-generator自动生成代码
+- 使用BigDecimal处理金额，避免精度丢失
+- 使用事务处理转账业务，避免转账过程中出现异常导致数据不一致
 
 
 接口文档地址：https://apifox.com/apidoc/shared-2b488bef-e222-4e16-8f77-7bb974cde440
