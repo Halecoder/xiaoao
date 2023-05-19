@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xiaoao.mall.model.dao.WalletMapper">
+  <resultMap id="BaseResultMap" type="com.xiaoao.mall.model.pojo.Wallet">
+    <id column="wallet_id" jdbcType="VARCHAR" property="walletId" />
+    <result column="user_id" jdbcType="INTEGER" property="userId" />
+    <result column="balance" jdbcType="DECIMAL" property="balance" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    wallet_id, user_id, balance
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.String" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from mall_wallet
+    where wallet_id = #{walletId,jdbcType=VARCHAR}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.String">
+    delete from mall_wallet
+    where wallet_id = #{walletId,jdbcType=VARCHAR}
+  </delete>
+  <insert id="insert" parameterType="com.xiaoao.mall.model.pojo.Wallet">
+    insert into mall_wallet (wallet_id, user_id, balance
+      )
+    values (#{walletId,jdbcType=VARCHAR}, #{userId,jdbcType=INTEGER}, #{balance,jdbcType=DECIMAL}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="com.xiaoao.mall.model.pojo.Wallet">
+    insert into mall_wallet
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="walletId != null">
+        wallet_id,
+      </if>
+      <if test="userId != null">
+        user_id,
+      </if>
+      <if test="balance != null">
+        balance,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="walletId != null">
+        #{walletId,jdbcType=VARCHAR},
+      </if>
+      <if test="userId != null">
+        #{userId,jdbcType=INTEGER},
+      </if>
+      <if test="balance != null">
+        #{balance,jdbcType=DECIMAL},
+      </if>
+    </trim>
+  </insert>
+
+  <update id="updateByPrimaryKeySelective" parameterType="com.xiaoao.mall.model.pojo.Wallet">
+    update mall_wallet
+    <set>
+      <if test="userId != null">
+        user_id = #{userId,jdbcType=INTEGER},
+      </if>
+      <if test="balance != null">
+        balance = #{balance,jdbcType=DECIMAL},
+      </if>
+    </set>
+    where wallet_id = #{walletId,jdbcType=VARCHAR}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.xiaoao.mall.model.pojo.Wallet">
+    update mall_wallet
+    set user_id = #{userId,jdbcType=INTEGER},
+      balance = #{balance,jdbcType=DECIMAL}
+    where wallet_id = #{walletId,jdbcType=VARCHAR}
+  </update>
+
+
+
+  <select id="selectWalletIdByBankId" resultType="java.lang.String">
+    select wallet_id from mall_user where bank_card_id = #{bankId,jdbcType=INTEGER}
+  </select>
+
+
+
+  <update id="deductAmountFromWallet">
+    update mall_wallet
+    set balance = balance - #{amount,jdbcType=DECIMAL}
+    where wallet_id = #{walletId,jdbcType=VARCHAR}
+  </update>
+
+
+  <update id="addAmountToWallet">
+    update mall_wallet
+    set balance = balance + #{amount,jdbcType=DECIMAL}
+    where wallet_id = #{walletId,jdbcType=VARCHAR}
+  </update>
+
+  <select id="selectBalanceByWalletId" resultType="java.math.BigDecimal">
+    select balance from mall_wallet where wallet_id = #{walletId,jdbcType=VARCHAR}
+  </select>
+    <select id="selectWalletIdByKey" resultType="java.lang.String">
+        select wallet_id from mall_user where user_id = #{userId,jdbcType=INTEGER}
+    </select>
+
+</mapper>

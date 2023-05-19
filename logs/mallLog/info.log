@@ -1,0 +1,357 @@
+[10:23:02:958] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting mallApplication on HL with PID 20304 (D:\Web\IDEA-Workspace\xiaoao\target\classes started by hl184 in D:\Web\IDEA-Workspace\xiaoao)
+[10:23:02:966] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[10:23:04:703] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8080 (http)
+[10:23:04:715] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+[10:23:04:717] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[10:23:04:717] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[10:23:04:886] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[10:23:04:887] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 1858 ms
+[10:23:05:755] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[10:23:06:814] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+[10:23:06:844] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8080 (http) with context path ''
+[10:23:06:848] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started mallApplication in 4.478 seconds (JVM running for 7.621)
+[10:36:03:606] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+[10:36:14:926] [INFO] - org.springframework.core.KotlinDetector.<clinit>(KotlinDetector.java:57) - Kotlin reflection implementation not found at runtime, related features won't be available.
+[10:36:15:471] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting mallApplication on HL with PID 8984 (D:\Web\IDEA-Workspace\xiaoao\target\classes started by hl184 in D:\Web\IDEA-Workspace\xiaoao)
+[10:36:15:475] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[10:36:15:638] [WARN] - org.springframework.core.log.CompositeLog.warn(CompositeLog.java:127) - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+[10:36:17:209] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8080 (http)
+[10:36:17:220] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+[10:36:17:221] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[10:36:17:223] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[10:36:17:404] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[10:36:17:405] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 1873 ms
+[10:36:19:182] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[10:36:20:294] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+[10:36:20:323] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8080 (http) with context path ''
+[10:36:20:327] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started mallApplication in 5.338 seconds (JVM running for 8.438)
+[10:36:26:163] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[10:36:26:163] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[10:36:26:173] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 10 ms
+[10:36:26:727] [INFO] - org.springdoc.api.AbstractOpenApiResource.getOpenApi(AbstractOpenApiResource.java:398) - Init duration for springdoc-openapi is: 508 ms
+[10:36:47:519] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - URL :http://localhost:8080/user/loginWithJwt
+[10:36:47:519] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:45) - HTTP_METHOD :GET
+[10:36:47:519] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - IP :0:0:0:0:0:0:0:1
+[10:36:47:521] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:48) - CLASS_METHODcom.xiaoao.mall.controller.UserController.loginWithJwt
+[10:36:47:522] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:50) - ARGS :[hanlei, 20020829]
+[10:39:56:233] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+[10:40:00:713] [INFO] - org.springframework.core.KotlinDetector.<clinit>(KotlinDetector.java:57) - Kotlin reflection implementation not found at runtime, related features won't be available.
+[10:40:01:177] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting mallApplication on HL with PID 8444 (D:\Web\IDEA-Workspace\xiaoao\target\classes started by hl184 in D:\Web\IDEA-Workspace\xiaoao)
+[10:40:01:180] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[10:40:01:453] [WARN] - org.springframework.core.log.CompositeLog.warn(CompositeLog.java:127) - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+[10:40:02:914] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8080 (http)
+[10:40:02:926] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+[10:40:02:927] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[10:40:02:928] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[10:40:03:044] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[10:40:03:045] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 1739 ms
+[10:40:05:062] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[10:40:06:143] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+[10:40:06:170] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8080 (http) with context path ''
+[10:40:06:174] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started mallApplication in 5.402 seconds (JVM running for 7.848)
+[10:40:12:005] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[10:40:12:006] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[10:40:12:015] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 9 ms
+[10:40:12:046] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - URL :http://localhost:8080/user/loginWithJwt
+[10:40:12:047] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:45) - HTTP_METHOD :GET
+[10:40:12:047] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - IP :0:0:0:0:0:0:0:1
+[10:40:12:049] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:48) - CLASS_METHODcom.xiaoao.mall.controller.UserController.loginWithJwt
+[10:40:12:049] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:50) - ARGS :[hanlei, 20020829]
+[10:40:12:964] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) - xiaoao - Starting...
+[10:40:14:955] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) - xiaoao - Start completed.
+[10:40:15:791] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:61) - RESPONSE :{"status":10000,"msg":"SUCCESS","data":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJ1c2VyX25hbWUiOiJoYW5sZWkiLCJleHAiOjE3NzA4NjQwMTV9.WWd5ebq9aYkwWTnXgYfaxtyy3jeTZAZCrEf7gEUptD8"}
+[10:40:56:770] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - URL :http://localhost:8080/wallet/openWallet
+[10:40:56:770] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:45) - HTTP_METHOD :POST
+[10:40:56:770] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - IP :0:0:0:0:0:0:0:1
+[10:40:56:770] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:48) - CLASS_METHODcom.xiaoao.mall.controller.WalletController.openWallet
+[10:40:56:770] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:50) - ARGS :[1234567890]
+[10:40:56:833] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:61) - RESPONSE :{"status":10000,"msg":"SUCCESS","data":"开通成功"}
+[10:41:25:022] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - URL :http://localhost:8080/wallet/openWallet
+[10:41:25:022] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:45) - HTTP_METHOD :POST
+[10:41:25:023] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - IP :0:0:0:0:0:0:0:1
+[10:41:25:023] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:48) - CLASS_METHODcom.xiaoao.mall.controller.WalletController.openWallet
+[10:41:25:023] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:50) - ARGS :[1234567890]
+[10:41:25:423] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:61) - RESPONSE :{"status":10000,"msg":"SUCCESS","data":"开通成功"}
+[10:41:30:140] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - URL :http://localhost:8080/wallet/openWallet
+[10:41:30:140] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:45) - HTTP_METHOD :POST
+[10:41:30:140] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - IP :0:0:0:0:0:0:0:1
+[10:41:30:140] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:48) - CLASS_METHODcom.xiaoao.mall.controller.WalletController.openWallet
+[10:41:30:140] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:50) - ARGS :[123456789]
+[10:41:30:904] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:61) - RESPONSE :{"status":10000,"msg":"SUCCESS","data":"开通成功"}
+[10:42:03:679] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - URL :http://localhost:8080/wallet/addWallet
+[10:42:03:679] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:45) - HTTP_METHOD :POST
+[10:42:03:679] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - IP :0:0:0:0:0:0:0:1
+[10:42:03:679] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:48) - CLASS_METHODcom.xiaoao.mall.controller.WalletController.addWallet
+[10:42:03:679] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:50) - ARGS :[100, 123456]
+[10:42:10:110] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - URL :http://localhost:8080/wallet/addWallet
+[10:42:10:110] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:45) - HTTP_METHOD :POST
+[10:42:10:110] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - IP :0:0:0:0:0:0:0:1
+[10:42:10:110] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:48) - CLASS_METHODcom.xiaoao.mall.controller.WalletController.addWallet
+[10:42:10:111] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:50) - ARGS :[100, 123456789]
+[10:45:39:572] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+[10:45:39:573] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:350) - xiaoao - Shutdown initiated...
+[10:45:39:583] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:352) - xiaoao - Shutdown completed.
+[10:45:46:923] [INFO] - org.springframework.core.KotlinDetector.<clinit>(KotlinDetector.java:57) - Kotlin reflection implementation not found at runtime, related features won't be available.
+[10:45:47:385] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting mallApplication on HL with PID 16440 (D:\Web\IDEA-Workspace\xiaoao\target\classes started by hl184 in D:\Web\IDEA-Workspace\xiaoao)
+[10:45:47:389] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[10:45:47:524] [WARN] - org.springframework.core.log.CompositeLog.warn(CompositeLog.java:127) - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+[10:45:48:951] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8080 (http)
+[10:45:48:966] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+[10:45:48:967] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[10:45:48:968] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[10:45:49:149] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[10:45:49:149] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 1706 ms
+[10:45:51:087] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[10:45:52:105] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+[10:45:52:133] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8080 (http) with context path ''
+[10:45:52:137] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started mallApplication in 5.161 seconds (JVM running for 7.534)
+[10:46:06:470] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[10:46:06:470] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[10:46:06:480] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 10 ms
+[10:46:07:247] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - URL :http://localhost:8080/wallet/addWallet
+[10:46:07:248] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:45) - HTTP_METHOD :POST
+[10:46:07:248] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - IP :0:0:0:0:0:0:0:1
+[10:46:07:250] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:48) - CLASS_METHODcom.xiaoao.mall.controller.WalletController.addWallet
+[10:46:07:250] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:50) - ARGS :[100, 123456789]
+[10:46:07:298] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) - xiaoao - Starting...
+[10:46:07:441] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) - xiaoao - Start completed.
+[10:51:17:551] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - URL :http://localhost:8080/user/register
+[10:51:17:552] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:45) - HTTP_METHOD :POST
+[10:51:17:552] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - IP :0:0:0:0:0:0:0:1
+[10:51:17:552] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:48) - CLASS_METHODcom.xiaoao.mall.controller.UserController.register
+[10:51:17:552] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:50) - ARGS :[hanlei, 20020829]
+[10:51:17:599] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:61) - RESPONSE :{"status":10000,"msg":"SUCCESS","data":null}
+[10:52:01:550] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - URL :http://localhost:8080/wallet/openWallet
+[10:52:01:550] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:45) - HTTP_METHOD :POST
+[10:52:01:550] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - IP :0:0:0:0:0:0:0:1
+[10:52:01:550] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:48) - CLASS_METHODcom.xiaoao.mall.controller.WalletController.openWallet
+[10:52:01:550] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:50) - ARGS :[123456789]
+[10:52:20:782] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - URL :http://localhost:8080/wallet/openWallet
+[10:52:20:783] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:45) - HTTP_METHOD :POST
+[10:52:20:783] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - IP :0:0:0:0:0:0:0:1
+[10:52:20:783] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:48) - CLASS_METHODcom.xiaoao.mall.controller.WalletController.openWallet
+[10:52:20:783] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:50) - ARGS :[123456789]
+[10:53:13:850] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - URL :http://localhost:8080/wallet/openWallet
+[10:53:13:850] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:45) - HTTP_METHOD :POST
+[10:53:13:850] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - IP :0:0:0:0:0:0:0:1
+[10:53:13:850] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:48) - CLASS_METHODcom.xiaoao.mall.controller.WalletController.openWallet
+[10:53:13:850] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:50) - ARGS :[1234567890]
+[10:53:21:966] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - URL :http://localhost:8080/wallet/openWallet
+[10:53:21:966] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:45) - HTTP_METHOD :POST
+[10:53:21:967] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - IP :0:0:0:0:0:0:0:1
+[10:53:21:967] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:48) - CLASS_METHODcom.xiaoao.mall.controller.WalletController.openWallet
+[10:53:21:967] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:50) - ARGS :[20021234567890]
+[10:54:02:729] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - URL :http://localhost:8080/wallet/openWallet
+[10:54:02:729] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:45) - HTTP_METHOD :POST
+[10:54:02:729] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - IP :0:0:0:0:0:0:0:1
+[10:54:02:730] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:48) - CLASS_METHODcom.xiaoao.mall.controller.WalletController.openWallet
+[10:54:02:730] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:50) - ARGS :[1234567890]
+[10:55:02:540] [WARN] - com.zaxxer.hikari.pool.HikariPool$HouseKeeper.run(HikariPool.java:787) - xiaoao - Thread starvation or clock leap detected (housekeeper delta=1m24s871ms108µs400ns).
+[10:55:02:542] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - URL :http://localhost:8080/user/loginWithJwt
+[10:55:02:542] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:45) - HTTP_METHOD :GET
+[10:55:02:542] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - IP :0:0:0:0:0:0:0:1
+[10:55:02:543] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:48) - CLASS_METHODcom.xiaoao.mall.controller.UserController.loginWithJwt
+[10:55:02:543] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:50) - ARGS :[hanlei, 20020829]
+[10:55:02:559] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:61) - RESPONSE :{"status":10000,"msg":"SUCCESS","data":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjozLCJ1c2VyX25hbWUiOiJoYW5sZWkiLCJleHAiOjE3NzA4NjQ5MDJ9.ffBht8O7F9_7EOj883sIi1sTwr84H9TDAL8wjtI7feo"}
+[11:03:56:746] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+[11:03:56:748] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:350) - xiaoao - Shutdown initiated...
+[11:03:56:759] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:352) - xiaoao - Shutdown completed.
+[11:04:06:746] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting mallApplication on HL with PID 19432 (D:\Web\IDEA-Workspace\xiaoao\target\classes started by hl184 in D:\Web\IDEA-Workspace\xiaoao)
+[11:04:06:750] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[11:04:08:279] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8080 (http)
+[11:04:08:290] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+[11:04:08:291] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[11:04:08:292] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[11:04:08:404] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[11:04:08:404] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 1604 ms
+[11:04:09:258] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[11:04:10:272] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+[11:04:10:301] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8080 (http) with context path ''
+[11:04:10:304] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started mallApplication in 3.974 seconds (JVM running for 6.28)
+[11:05:15:897] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[11:05:15:897] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[11:05:15:907] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 10 ms
+[11:05:16:689] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - URL :http://localhost:8080/wallet/openWallet
+[11:05:16:689] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:45) - HTTP_METHOD :POST
+[11:05:16:689] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - IP :0:0:0:0:0:0:0:1
+[11:05:16:691] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:48) - CLASS_METHODcom.xiaoao.mall.controller.WalletController.openWallet
+[11:05:16:691] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:50) - ARGS :[1234567890]
+[11:05:16:769] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) - xiaoao - Starting...
+[11:05:16:917] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) - xiaoao - Start completed.
+[11:06:21:665] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - URL :http://localhost:8080/wallet/checkWallet
+[11:06:21:665] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:45) - HTTP_METHOD :POST
+[11:06:21:665] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - IP :0:0:0:0:0:0:0:1
+[11:06:21:666] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:48) - CLASS_METHODcom.xiaoao.mall.controller.WalletController.checkWallet
+[11:06:21:666] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:50) - ARGS :[1234567890]
+[11:10:58:378] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+[11:10:58:379] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:350) - xiaoao - Shutdown initiated...
+[11:10:58:390] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:352) - xiaoao - Shutdown completed.
+[11:11:06:584] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting mallApplication on HL with PID 11884 (D:\Web\IDEA-Workspace\xiaoao\target\classes started by hl184 in D:\Web\IDEA-Workspace\xiaoao)
+[11:11:06:588] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[11:11:08:119] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8080 (http)
+[11:11:08:130] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+[11:11:08:131] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[11:11:08:132] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[11:11:08:242] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[11:11:08:242] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 1605 ms
+[11:11:09:148] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[11:11:10:246] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+[11:11:10:274] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8080 (http) with context path ''
+[11:11:10:278] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started mallApplication in 4.104 seconds (JVM running for 6.384)
+[11:11:16:148] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[11:11:16:148] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[11:11:16:158] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 10 ms
+[11:11:16:941] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - URL :http://localhost:8080/wallet/checkWallet
+[11:11:16:941] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:45) - HTTP_METHOD :POST
+[11:11:16:942] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - IP :0:0:0:0:0:0:0:1
+[11:11:16:944] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:48) - CLASS_METHODcom.xiaoao.mall.controller.WalletController.checkWallet
+[11:11:16:944] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:50) - ARGS :[1234567890]
+[11:11:24:450] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) - xiaoao - Starting...
+[11:11:24:613] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) - xiaoao - Start completed.
+[11:11:24:730] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:61) - RESPONSE :{"status":30005,"msg":"请先开通钱包","data":null}
+[11:11:40:020] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - URL :http://localhost:8080/wallet/openWallet
+[11:11:40:020] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:45) - HTTP_METHOD :POST
+[11:11:40:020] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - IP :0:0:0:0:0:0:0:1
+[11:11:40:020] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:48) - CLASS_METHODcom.xiaoao.mall.controller.WalletController.openWallet
+[11:11:40:021] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:50) - ARGS :[1234567890]
+[11:12:42:643] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - URL :http://localhost:8080/user/loginWithJwt
+[11:12:42:643] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:45) - HTTP_METHOD :GET
+[11:12:42:643] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - IP :0:0:0:0:0:0:0:1
+[11:12:42:644] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:48) - CLASS_METHODcom.xiaoao.mall.controller.UserController.loginWithJwt
+[11:12:42:644] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:50) - ARGS :[hanlei, 20020829]
+[11:13:00:071] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:61) - RESPONSE :{"status":10000,"msg":"SUCCESS","data":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjozLCJ1c2VyX25hbWUiOiJoYW5sZWkiLCJleHAiOjE3NzA4NjU5ODB9.Oq9sbPx-4-nRywSgYRlaftcL4pczpLRggu3d6Bkntws"}
+[11:13:52:499] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - URL :http://localhost:8080/wallet/openWallet
+[11:13:52:500] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:45) - HTTP_METHOD :POST
+[11:13:52:500] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - IP :0:0:0:0:0:0:0:1
+[11:13:52:500] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:48) - CLASS_METHODcom.xiaoao.mall.controller.WalletController.openWallet
+[11:13:52:500] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:50) - ARGS :[1234567890]
+[11:13:52:534] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:61) - RESPONSE :{"status":10000,"msg":"SUCCESS","data":"开通成功"}
+[11:14:17:413] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - URL :http://localhost:8080/wallet/checkWallet
+[11:14:17:413] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:45) - HTTP_METHOD :POST
+[11:14:17:413] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - IP :0:0:0:0:0:0:0:1
+[11:14:17:413] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:48) - CLASS_METHODcom.xiaoao.mall.controller.WalletController.checkWallet
+[11:14:17:414] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:50) - ARGS :[1234567890]
+[11:14:40:966] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - URL :http://localhost:8080/wallet/checkWallet
+[11:14:40:967] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:45) - HTTP_METHOD :POST
+[11:14:40:967] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - IP :0:0:0:0:0:0:0:1
+[11:14:40:967] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:48) - CLASS_METHODcom.xiaoao.mall.controller.WalletController.checkWallet
+[11:14:40:967] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:50) - ARGS :[1234567890]
+[11:15:18:204] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - URL :http://localhost:8080/wallet/checkWallet
+[11:15:18:205] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:45) - HTTP_METHOD :POST
+[11:15:18:205] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - IP :0:0:0:0:0:0:0:1
+[11:15:18:205] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:48) - CLASS_METHODcom.xiaoao.mall.controller.WalletController.checkWallet
+[11:15:18:205] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:50) - ARGS :[1234567890]
+[11:15:23:588] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - URL :http://localhost:8080/wallet/checkWallet
+[11:15:23:589] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:45) - HTTP_METHOD :POST
+[11:15:23:589] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - IP :0:0:0:0:0:0:0:1
+[11:15:23:589] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:48) - CLASS_METHODcom.xiaoao.mall.controller.WalletController.checkWallet
+[11:15:23:589] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:50) - ARGS :[1234567890]
+[11:16:22:085] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+[11:16:22:086] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:350) - xiaoao - Shutdown initiated...
+[11:16:22:097] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:352) - xiaoao - Shutdown completed.
+[11:16:26:627] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting mallApplication on HL with PID 21424 (D:\Web\IDEA-Workspace\xiaoao\target\classes started by hl184 in D:\Web\IDEA-Workspace\xiaoao)
+[11:16:26:632] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[11:16:28:140] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8080 (http)
+[11:16:28:151] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+[11:16:28:152] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[11:16:28:153] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[11:16:28:264] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[11:16:28:265] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 1581 ms
+[11:16:29:098] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[11:16:30:117] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+[11:16:30:144] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8080 (http) with context path ''
+[11:16:30:148] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started mallApplication in 3.939 seconds (JVM running for 6.235)
+[11:17:00:340] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[11:17:00:340] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[11:17:00:349] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 9 ms
+[11:17:01:131] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - URL :http://localhost:8080/wallet/checkWallet
+[11:17:01:131] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:45) - HTTP_METHOD :POST
+[11:17:01:131] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - IP :0:0:0:0:0:0:0:1
+[11:17:01:134] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:48) - CLASS_METHODcom.xiaoao.mall.controller.WalletController.checkWallet
+[11:17:01:134] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:50) - ARGS :[1234567890]
+[11:17:01:180] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) - xiaoao - Starting...
+[11:17:01:336] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) - xiaoao - Start completed.
+[11:17:01:473] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:61) - RESPONSE :{"status":10000,"msg":"SUCCESS","data":"您的钱包余额为：0.00"}
+[11:17:11:585] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - URL :http://localhost:8080/wallet/addWallet
+[11:17:11:586] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:45) - HTTP_METHOD :POST
+[11:17:11:586] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - IP :0:0:0:0:0:0:0:1
+[11:17:11:586] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:48) - CLASS_METHODcom.xiaoao.mall.controller.WalletController.addWallet
+[11:17:11:586] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:50) - ARGS :[100, 123456789]
+[11:17:11:640] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:61) - RESPONSE :{"status":10000,"msg":"SUCCESS","data":"退款成功"}
+[11:18:04:796] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - URL :http://localhost:8080/wallet/addWallet
+[11:18:04:796] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:45) - HTTP_METHOD :POST
+[11:18:04:796] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - IP :0:0:0:0:0:0:0:1
+[11:18:04:796] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:48) - CLASS_METHODcom.xiaoao.mall.controller.WalletController.addWallet
+[11:18:04:796] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:50) - ARGS :[100, 1234567890]
+[11:18:04:821] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:61) - RESPONSE :{"status":10000,"msg":"SUCCESS","data":"退款成功"}
+[11:18:43:032] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - URL :http://localhost:8080/wallet/checkWalletChange
+[11:18:43:033] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:45) - HTTP_METHOD :GET
+[11:18:43:033] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - IP :0:0:0:0:0:0:0:1
+[11:18:43:033] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:48) - CLASS_METHODcom.xiaoao.mall.controller.WalletController.checkWalletChange
+[11:18:43:033] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:50) - ARGS :[com.xiaoao.mall.model.pojo.PageQuery@6863c7c]
+[11:18:43:064] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:61) - RESPONSE :{"status":10000,"msg":"SUCCESS","data":{"total":3,"list":[{"transactionId":null,"userId":null,"transactionType":null,"amount":100.00,"transactionTime":null},{"transactionId":null,"userId":null,"transactionType":null,"amount":100.00,"transactionTime":null},{"transactionId":null,"userId":null,"transactionType":null,"amount":0.00,"transactionTime":null}],"pageNum":1,"pageSize":3,"size":3,"startRow":0,"endRow":2,"pages":1,"prePage":0,"nextPage":0,"isFirstPage":true,"isLastPage":true,"hasPreviousPage":false,"hasNextPage":false,"navigatePages":8,"navigatepageNums":[1],"navigateFirstPage":1,"navigateLastPage":1}}
+[11:20:03:647] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - URL :http://localhost:8080/wallet/checkWalletChange
+[11:20:03:647] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:45) - HTTP_METHOD :GET
+[11:20:03:647] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - IP :0:0:0:0:0:0:0:1
+[11:20:03:648] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:48) - CLASS_METHODcom.xiaoao.mall.controller.WalletController.checkWalletChange
+[11:20:03:648] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:50) - ARGS :[com.xiaoao.mall.model.pojo.PageQuery@58363c90]
+[11:20:44:229] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:61) - RESPONSE :{"status":10000,"msg":"SUCCESS","data":{"total":3,"list":[{"transactionId":null,"userId":null,"transactionType":null,"amount":100.00,"transactionTime":null},{"transactionId":null,"userId":null,"transactionType":null,"amount":100.00,"transactionTime":null},{"transactionId":null,"userId":null,"transactionType":null,"amount":0.00,"transactionTime":null}],"pageNum":1,"pageSize":3,"size":3,"startRow":0,"endRow":2,"pages":1,"prePage":0,"nextPage":0,"isFirstPage":true,"isLastPage":true,"hasPreviousPage":false,"hasNextPage":false,"navigatePages":8,"navigatepageNums":[1],"navigateFirstPage":1,"navigateLastPage":1}}
+[11:23:00:518] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+[11:23:00:519] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:350) - xiaoao - Shutdown initiated...
+[11:23:00:531] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:352) - xiaoao - Shutdown completed.
+[11:23:05:080] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting mallApplication on HL with PID 19520 (D:\Web\IDEA-Workspace\xiaoao\target\classes started by hl184 in D:\Web\IDEA-Workspace\xiaoao)
+[11:23:05:085] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[11:23:06:584] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8080 (http)
+[11:23:06:595] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+[11:23:06:596] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[11:23:06:597] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[11:23:06:706] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[11:23:06:707] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 1574 ms
+[11:23:07:543] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[11:23:08:554] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+[11:23:08:581] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8080 (http) with context path ''
+[11:23:08:585] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started mallApplication in 3.919 seconds (JVM running for 6.251)
+[11:23:12:816] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[11:23:12:816] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[11:23:12:826] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 10 ms
+[11:23:13:604] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - URL :http://localhost:8080/wallet/checkWalletChange
+[11:23:13:604] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:45) - HTTP_METHOD :GET
+[11:23:13:605] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - IP :0:0:0:0:0:0:0:1
+[11:23:13:606] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:48) - CLASS_METHODcom.xiaoao.mall.controller.WalletController.checkWalletChange
+[11:23:13:607] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:50) - ARGS :[com.xiaoao.mall.model.pojo.PageQuery@486c107b]
+[11:23:13:654] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) - xiaoao - Starting...
+[11:23:13:802] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) - xiaoao - Start completed.
+[11:23:13:942] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:61) - RESPONSE :{"status":10000,"msg":"SUCCESS","data":{"total":3,"list":[{"transactionId":"5ef46326d76d44349c06c0792e80181a","userId":3,"transactionType":"充值","amount":100.00,"transactionTime":"2023-05-19 11:18:05"},{"transactionId":"ea83407e8b4243a4a927c503a3322728","userId":3,"transactionType":"充值","amount":100.00,"transactionTime":"2023-05-19 11:17:12"},{"transactionId":"f18b519eb27049f48ea4de54962547ae","userId":3,"transactionType":"充值","amount":0.00,"transactionTime":"2023-05-19 11:13:53"}],"pageNum":1,"pageSize":3,"size":3,"startRow":0,"endRow":2,"pages":1,"prePage":0,"nextPage":0,"isFirstPage":true,"isLastPage":true,"hasPreviousPage":false,"hasNextPage":false,"navigatePages":8,"navigatepageNums":[1],"navigateFirstPage":1,"navigateLastPage":1}}
+[11:23:36:816] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - URL :http://localhost:8080/wallet/checkWallet
+[11:23:36:816] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:45) - HTTP_METHOD :POST
+[11:23:36:816] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - IP :0:0:0:0:0:0:0:1
+[11:23:36:816] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:48) - CLASS_METHODcom.xiaoao.mall.controller.WalletController.checkWallet
+[11:23:36:816] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:50) - ARGS :[1234567890]
+[11:23:36:840] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:61) - RESPONSE :{"status":10000,"msg":"SUCCESS","data":"您的钱包余额为：100.00"}
+[11:23:55:378] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - URL :http://localhost:8080/wallet/addWallet
+[11:23:55:378] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:45) - HTTP_METHOD :POST
+[11:23:55:378] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - IP :0:0:0:0:0:0:0:1
+[11:23:55:378] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:48) - CLASS_METHODcom.xiaoao.mall.controller.WalletController.addWallet
+[11:23:55:379] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:50) - ARGS :[20, 1234567890]
+[11:23:55:433] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:61) - RESPONSE :{"status":10000,"msg":"SUCCESS","data":"退款成功"}
+[11:24:15:832] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - URL :http://localhost:8080/wallet/descWallet
+[11:24:15:832] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:45) - HTTP_METHOD :POST
+[11:24:15:833] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - IP :0:0:0:0:0:0:0:1
+[11:24:15:833] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:48) - CLASS_METHODcom.xiaoao.mall.controller.WalletController.descWallet
+[11:24:15:833] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:50) - ARGS :[10, 1234567890]
+[11:24:15:855] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:61) - RESPONSE :{"status":10000,"msg":"SUCCESS","data":"扣款成功"}
+[11:24:21:458] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - URL :http://localhost:8080/wallet/checkWallet
+[11:24:21:458] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:45) - HTTP_METHOD :POST
+[11:24:21:459] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - IP :0:0:0:0:0:0:0:1
+[11:24:21:459] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:48) - CLASS_METHODcom.xiaoao.mall.controller.WalletController.checkWallet
+[11:24:21:459] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:50) - ARGS :[1234567890]
+[11:24:21:471] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:61) - RESPONSE :{"status":10000,"msg":"SUCCESS","data":"您的钱包余额为：110.00"}
+[11:24:35:676] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - URL :http://localhost:8080/wallet/checkWalletChange
+[11:24:35:676] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:45) - HTTP_METHOD :GET
+[11:24:35:677] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - IP :0:0:0:0:0:0:0:1
+[11:24:35:677] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:48) - CLASS_METHODcom.xiaoao.mall.controller.WalletController.checkWalletChange
+[11:24:35:677] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:50) - ARGS :[com.xiaoao.mall.model.pojo.PageQuery@2639af06]
+[11:24:35:695] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:61) - RESPONSE :{"status":10000,"msg":"SUCCESS","data":{"total":5,"list":[{"transactionId":"2d77e88ef2e042e3b2fb0d12c4b93628","userId":3,"transactionType":"消费","amount":10.00,"transactionTime":"2023-05-19 11:24:16"},{"transactionId":"f02539578f6240caa03da1c97396bea1","userId":3,"transactionType":"充值","amount":20.00,"transactionTime":"2023-05-19 11:23:55"},{"transactionId":"5ef46326d76d44349c06c0792e80181a","userId":3,"transactionType":"充值","amount":100.00,"transactionTime":"2023-05-19 11:18:05"},{"transactionId":"ea83407e8b4243a4a927c503a3322728","userId":3,"transactionType":"充值","amount":100.00,"transactionTime":"2023-05-19 11:17:12"},{"transactionId":"f18b519eb27049f48ea4de54962547ae","userId":3,"transactionType":"充值","amount":0.00,"transactionTime":"2023-05-19 11:13:53"}],"pageNum":1,"pageSize":5,"size":5,"startRow":0,"endRow":4,"pages":1,"prePage":0,"nextPage":0,"isFirstPage":true,"isLastPage":true,"hasPreviousPage":false,"hasNextPage":false,"navigatePages":8,"navigatepageNums":[1],"navigateFirstPage":1,"navigateLastPage":1}}
+[11:28:17:897] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+[11:28:17:898] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:350) - xiaoao - Shutdown initiated...
+[11:28:17:907] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:352) - xiaoao - Shutdown completed.

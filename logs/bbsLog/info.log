@@ -1,0 +1,312 @@
+[10:44:42:922] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting BbsApplication on HL with PID 9908 (D:\Web\IDEA-Workspace\bbs\target\classes started by hl184 in D:\Web\IDEA-Workspace\bbs)
+[10:44:42:928] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[10:44:44:458] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8080 (http)
+[10:44:44:471] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+[10:44:44:472] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[10:44:44:473] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[10:44:44:584] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[10:44:44:585] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 1598 ms
+[10:44:45:307] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[10:44:45:659] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+[10:44:45:682] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8080 (http) with context path ''
+[10:44:45:685] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started BbsApplication in 3.243 seconds (JVM running for 6.707)
+[10:46:55:418] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[10:46:55:418] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[10:46:55:427] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 9 ms
+[10:46:55:459] [WARN] - org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.logException(AbstractHandlerExceptionResolver.java:199) - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'username' is not present]
+[10:47:13:860] [WARN] - org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.logException(AbstractHandlerExceptionResolver.java:199) - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'password' is not present]
+[10:47:35:427] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - URL :http://127.0.0.1:8080/login
+[10:47:35:428] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:45) - HTTP_METHOD :POST
+[10:47:35:428] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - IP :127.0.0.1
+[10:47:35:430] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:48) - CLASS_METHODcom.imooc.bbs.controller.UserController.login
+[10:47:35:431] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:50) - ARGS :[, ]
+[10:47:35:456] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:61) - RESPONSE :{"status":10001,"msg":"用户名不能为空","data":null}
+[10:47:46:701] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - URL :http://127.0.0.1:8080/login
+[10:47:46:701] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:45) - HTTP_METHOD :POST
+[10:47:46:702] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - IP :127.0.0.1
+[10:47:46:702] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:48) - CLASS_METHODcom.imooc.bbs.controller.UserController.login
+[10:47:46:702] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:50) - ARGS :[HL, ]
+[10:47:46:705] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:61) - RESPONSE :{"status":10002,"msg":"密码不能为空","data":null}
+[10:47:51:220] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - URL :http://127.0.0.1:8080/login
+[10:47:51:220] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:45) - HTTP_METHOD :POST
+[10:47:51:221] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - IP :127.0.0.1
+[10:47:51:221] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:48) - CLASS_METHODcom.imooc.bbs.controller.UserController.login
+[10:47:51:221] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:50) - ARGS :[HL, 2002]
+[10:47:51:224] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:61) - RESPONSE :{"status":10000,"msg":"SUCCESS","data":null}
+[11:01:29:213] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - URL :http://127.0.0.1:8080/login
+[11:01:29:214] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:45) - HTTP_METHOD :POST
+[11:01:29:214] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - IP :127.0.0.1
+[11:01:29:214] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:48) - CLASS_METHODcom.imooc.bbs.controller.UserController.login
+[11:01:29:214] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:50) - ARGS :[HL, ]
+[11:01:29:216] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:61) - RESPONSE :{"status":10002,"msg":"密码不能为空","data":null}
+[11:02:00:254] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - URL :http://127.0.0.1:8080/login
+[11:02:00:255] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:45) - HTTP_METHOD :POST
+[11:02:00:255] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - IP :127.0.0.1
+[11:02:00:255] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:48) - CLASS_METHODcom.imooc.bbs.controller.UserController.login
+[11:02:00:255] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:50) - ARGS :[, ]
+[11:02:00:256] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:61) - RESPONSE :{"status":10001,"msg":"用户名不能为空","data":null}
+[11:02:03:529] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Invalid chunk starting at byte [0] and ending at byte [1] with a value of [=] ignored
+ Note: further occurrences of Parameter errors will be logged at DEBUG level.
+[11:02:03:531] [WARN] - org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.logException(AbstractHandlerExceptionResolver.java:199) - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'username' is not present]
+[11:02:09:486] [WARN] - org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.logException(AbstractHandlerExceptionResolver.java:199) - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'username' is not present]
+[11:02:16:106] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+[11:02:21:898] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting BbsApplication on HL with PID 2788 (D:\Web\IDEA-Workspace\bbs\target\classes started by hl184 in D:\Web\IDEA-Workspace\bbs)
+[11:02:21:939] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[11:02:23:253] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8080 (http)
+[11:02:23:263] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+[11:02:23:264] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[11:02:23:265] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[11:02:23:363] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[11:02:23:364] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 1377 ms
+[11:02:24:006] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[11:02:24:338] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+[11:02:24:361] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8080 (http) with context path ''
+[11:02:24:365] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started BbsApplication in 2.847 seconds (JVM running for 4.966)
+[11:02:35:438] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[11:02:35:439] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[11:02:35:447] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 8 ms
+[11:02:35:457] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Invalid chunk starting at byte [0] and ending at byte [1] with a value of [=] ignored
+ Note: further occurrences of Parameter errors will be logged at DEBUG level.
+[11:03:13:147] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+[11:03:18:209] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting BbsApplication on HL with PID 12760 (D:\Web\IDEA-Workspace\bbs\target\classes started by hl184 in D:\Web\IDEA-Workspace\bbs)
+[11:03:18:213] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[11:03:19:551] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8080 (http)
+[11:03:19:562] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+[11:03:19:563] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[11:03:19:564] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[11:03:19:665] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[11:03:19:665] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 1404 ms
+[11:03:20:327] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[11:03:20:670] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+[11:03:20:693] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8080 (http) with context path ''
+[11:03:20:697] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started BbsApplication in 2.898 seconds (JVM running for 5.057)
+[11:03:25:721] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[11:03:25:721] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[11:03:25:730] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 9 ms
+[11:03:25:740] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Invalid chunk starting at byte [0] and ending at byte [1] with a value of [=] ignored
+ Note: further occurrences of Parameter errors will be logged at DEBUG level.
+[11:03:38:200] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+[11:03:42:463] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting BbsApplication on HL with PID 6244 (D:\Web\IDEA-Workspace\bbs\target\classes started by hl184 in D:\Web\IDEA-Workspace\bbs)
+[11:03:42:466] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[11:04:01:860] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8080 (http)
+[11:04:01:871] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+[11:04:01:872] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[11:04:01:873] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[11:04:01:974] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[11:04:01:975] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 19457 ms
+[11:04:02:625] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[11:04:02:963] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+[11:04:02:987] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8080 (http) with context path ''
+[11:04:02:991] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started BbsApplication in 20.962 seconds (JVM running for 23.355)
+[11:04:27:757] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[11:04:27:758] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[11:04:27:768] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 9 ms
+[11:04:27:778] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Invalid chunk starting at byte [0] and ending at byte [1] with a value of [=] ignored
+ Note: further occurrences of Parameter errors will be logged at DEBUG level.
+[11:04:33:563] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+[11:04:38:558] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting BbsApplication on HL with PID 3092 (D:\Web\IDEA-Workspace\bbs\target\classes started by hl184 in D:\Web\IDEA-Workspace\bbs)
+[11:04:38:562] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[11:04:39:895] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8080 (http)
+[11:04:39:905] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+[11:04:39:906] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[11:04:39:907] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[11:04:40:008] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[11:04:40:102] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 1491 ms
+[11:05:47:182] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting BbsApplication on HL with PID 11508 (D:\Web\IDEA-Workspace\bbs\target\classes started by hl184 in D:\Web\IDEA-Workspace\bbs)
+[11:05:47:186] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[11:05:48:486] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8080 (http)
+[11:05:48:496] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+[11:05:48:497] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[11:05:48:498] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[11:05:48:599] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[11:05:48:599] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 1365 ms
+[11:05:49:249] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[11:05:49:585] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+[11:05:49:608] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8080 (http) with context path ''
+[11:05:49:611] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started BbsApplication in 2.839 seconds (JVM running for 5.083)
+[11:05:54:829] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[11:05:54:829] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[11:05:54:838] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 9 ms
+[11:05:54:849] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Invalid chunk starting at byte [0] and ending at byte [1] with a value of [=] ignored
+ Note: further occurrences of Parameter errors will be logged at DEBUG level.
+[11:41:32:219] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+[11:41:38:492] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting BbsApplication on HL with PID 14824 (D:\Web\IDEA-Workspace\bbs\target\classes started by hl184 in D:\Web\IDEA-Workspace\bbs)
+[11:41:38:496] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[11:41:39:858] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8080 (http)
+[11:41:39:868] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+[11:41:39:869] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[11:41:39:870] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[11:41:39:972] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[11:41:39:972] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 1426 ms
+[11:41:40:620] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[11:41:40:956] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+[11:41:40:980] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8080 (http) with context path ''
+[11:41:40:983] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started BbsApplication in 2.908 seconds (JVM running for 5.008)
+[11:41:48:961] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[11:41:48:961] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[11:41:48:969] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 8 ms
+[11:41:48:979] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Invalid chunk starting at byte [0] and ending at byte [1] with a value of [=] ignored
+ Note: further occurrences of Parameter errors will be logged at DEBUG level.
+[11:42:34:763] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - URL :http://127.0.0.1:8080/register
+[11:42:34:763] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:45) - HTTP_METHOD :POST
+[11:42:34:763] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - IP :127.0.0.1
+[11:42:34:765] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:48) - CLASS_METHODcom.imooc.bbs.controller.UserController.register
+[11:42:34:765] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:50) - ARGS :[HL, ]
+[11:42:34:778] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:61) - RESPONSE :{"status":10002,"msg":"密码不能为空","data":null}
+[11:42:37:799] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - URL :http://127.0.0.1:8080/register
+[11:42:37:799] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:45) - HTTP_METHOD :POST
+[11:42:37:799] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - IP :127.0.0.1
+[11:42:37:799] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:48) - CLASS_METHODcom.imooc.bbs.controller.UserController.register
+[11:42:37:800] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:50) - ARGS :[HL, sd]
+[11:42:37:803] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:61) - RESPONSE :{"status":10003,"msg":"密码至少需要8位","data":null}
+[11:42:44:618] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - URL :http://127.0.0.1:8080/register
+[11:42:44:619] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:45) - HTTP_METHOD :POST
+[11:42:44:619] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - IP :127.0.0.1
+[11:42:44:619] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:48) - CLASS_METHODcom.imooc.bbs.controller.UserController.register
+[11:42:44:619] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:50) - ARGS :[HL, 12345678]
+[11:42:44:662] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) - bbs - Starting...
+[11:42:44:834] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) - bbs - Start completed.
+[11:43:41:228] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - URL :http://127.0.0.1:8080/register
+[11:43:41:229] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:45) - HTTP_METHOD :POST
+[11:43:41:229] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - IP :127.0.0.1
+[11:43:41:229] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:48) - CLASS_METHODcom.imooc.bbs.controller.UserController.register
+[11:43:41:229] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:50) - ARGS :[HL, 12345678]
+[11:43:41:264] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:61) - RESPONSE :{"status":10000,"msg":"SUCCESS","data":null}
+[11:44:09:962] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - URL :http://127.0.0.1:8080/login
+[11:44:09:962] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:45) - HTTP_METHOD :POST
+[11:44:09:962] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - IP :127.0.0.1
+[11:44:09:962] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:48) - CLASS_METHODcom.imooc.bbs.controller.UserController.login
+[11:44:09:962] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:50) - ARGS :[HL, ]
+[11:44:09:964] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:61) - RESPONSE :{"status":10002,"msg":"密码不能为空","data":null}
+[11:44:15:225] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - URL :http://127.0.0.1:8080/login
+[11:44:15:225] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:45) - HTTP_METHOD :POST
+[11:44:15:225] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - IP :127.0.0.1
+[11:44:15:225] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:48) - CLASS_METHODcom.imooc.bbs.controller.UserController.login
+[11:44:15:225] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:50) - ARGS :[HL, 12345678]
+[11:44:15:227] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:61) - RESPONSE :{"status":10000,"msg":"SUCCESS","data":null}
+[11:44:19:892] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - URL :http://127.0.0.1:8080/login
+[11:44:19:892] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:45) - HTTP_METHOD :POST
+[11:44:19:893] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - IP :127.0.0.1
+[11:44:19:893] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:48) - CLASS_METHODcom.imooc.bbs.controller.UserController.login
+[11:44:19:893] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:50) - ARGS :[HL, 1234567]
+[11:44:19:894] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:61) - RESPONSE :{"status":10000,"msg":"SUCCESS","data":null}
+[11:44:23:860] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - URL :http://127.0.0.1:8080/login
+[11:44:23:860] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:45) - HTTP_METHOD :POST
+[11:44:23:860] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - IP :127.0.0.1
+[11:44:23:860] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:48) - CLASS_METHODcom.imooc.bbs.controller.UserController.login
+[11:44:23:860] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:50) - ARGS :[HL, 1234567]
+[11:44:23:862] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:61) - RESPONSE :{"status":10000,"msg":"SUCCESS","data":null}
+[11:48:18:892] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+[11:48:18:893] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:350) - bbs - Shutdown initiated...
+[11:48:18:900] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:352) - bbs - Shutdown completed.
+[11:48:25:041] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting BbsApplication on HL with PID 9532 (D:\Web\IDEA-Workspace\bbs\target\classes started by hl184 in D:\Web\IDEA-Workspace\bbs)
+[11:48:25:045] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[11:48:26:365] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8080 (http)
+[11:48:26:376] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+[11:48:26:377] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[11:48:26:377] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[11:48:26:478] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[11:48:26:478] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 1383 ms
+[11:48:27:132] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[11:48:27:471] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+[11:48:27:494] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8080 (http) with context path ''
+[11:48:27:497] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started BbsApplication in 2.887 seconds (JVM running for 5.06)
+[11:48:51:815] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[11:48:51:815] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[11:48:51:824] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 9 ms
+[11:48:51:855] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - URL :http://127.0.0.1:8080/register
+[11:48:51:855] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:45) - HTTP_METHOD :POST
+[11:48:51:855] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - IP :127.0.0.1
+[11:48:51:857] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:48) - CLASS_METHODcom.imooc.bbs.controller.UserController.register
+[11:48:51:857] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:50) - ARGS :[Hale, 12345678]
+[11:48:51:895] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) - bbs - Starting...
+[11:48:52:034] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) - bbs - Start completed.
+[11:48:52:178] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:61) - RESPONSE :{"status":10000,"msg":"SUCCESS","data":null}
+[11:51:45:253] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+[11:51:45:254] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:350) - bbs - Shutdown initiated...
+[11:51:45:261] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:352) - bbs - Shutdown completed.
+[11:51:50:282] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting BbsApplication on HL with PID 12080 (D:\Web\IDEA-Workspace\bbs\target\classes started by hl184 in D:\Web\IDEA-Workspace\bbs)
+[11:51:50:285] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[11:51:51:574] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8080 (http)
+[11:51:51:585] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+[11:51:51:586] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[11:51:51:586] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[11:51:51:686] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[11:51:51:686] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 1351 ms
+[11:51:52:318] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[11:51:52:648] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+[11:51:52:671] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8080 (http) with context path ''
+[11:51:52:674] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started BbsApplication in 2.791 seconds (JVM running for 4.949)
+[11:52:17:902] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[11:52:17:902] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[11:52:17:912] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 10 ms
+[11:52:17:945] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - URL :http://127.0.0.1:8080/register
+[11:52:17:945] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:45) - HTTP_METHOD :POST
+[11:52:17:946] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - IP :127.0.0.1
+[11:52:17:948] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:48) - CLASS_METHODcom.imooc.bbs.controller.UserController.register
+[11:52:17:948] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:50) - ARGS :[HL, 12345678]
+[11:52:17:988] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) - bbs - Starting...
+[11:52:18:133] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) - bbs - Start completed.
+[11:52:18:291] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:61) - RESPONSE :{"status":10000,"msg":"SUCCESS","data":null}
+[13:55:08:771] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+[13:55:08:771] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:350) - bbs - Shutdown initiated...
+[13:55:08:776] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:352) - bbs - Shutdown completed.
+[13:55:15:188] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting BbsApplication on HL with PID 19196 (D:\Web\IDEA-Workspace\bbs\target\classes started by hl184 in D:\Web\IDEA-Workspace\bbs)
+[13:55:15:192] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[13:55:16:548] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8080 (http)
+[13:55:16:559] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+[13:55:16:560] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[13:55:16:561] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[13:55:16:663] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[13:55:16:664] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 1423 ms
+[13:55:17:317] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[13:55:17:649] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+[13:55:17:672] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8080 (http) with context path ''
+[13:55:17:677] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started BbsApplication in 2.894 seconds (JVM running for 5.064)
+[13:55:32:507] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[13:55:32:507] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[13:55:32:517] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 9 ms
+[13:58:29:283] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+[13:58:35:293] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting BbsApplication on HL with PID 18628 (D:\Web\IDEA-Workspace\bbs\target\classes started by hl184 in D:\Web\IDEA-Workspace\bbs)
+[13:58:35:297] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[13:58:36:594] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8080 (http)
+[13:58:36:605] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+[13:58:36:606] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[13:58:36:607] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[13:58:36:708] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[13:58:36:709] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 1361 ms
+[13:58:37:345] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[13:58:37:677] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+[13:58:37:701] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8080 (http) with context path ''
+[13:58:37:705] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started BbsApplication in 2.827 seconds (JVM running for 4.957)
+[13:58:42:721] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[13:58:42:722] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[13:58:42:732] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 10 ms
+[13:58:42:771] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - URL :http://127.0.0.1:8080/login
+[13:58:42:771] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:45) - HTTP_METHOD :POST
+[13:58:42:772] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - IP :127.0.0.1
+[13:58:42:773] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:48) - CLASS_METHODcom.imooc.bbs.controller.UserController.login
+[13:58:42:774] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:50) - ARGS :[HL, 1234567, org.apache.catalina.session.StandardSessionFacade@6049189]
+[13:58:42:818] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) - bbs - Starting...
+[13:58:42:954] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) - bbs - Start completed.
+[13:58:49:406] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - URL :http://127.0.0.1:8080/login
+[13:58:49:406] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:45) - HTTP_METHOD :POST
+[13:58:49:407] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - IP :127.0.0.1
+[13:58:49:407] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:48) - CLASS_METHODcom.imooc.bbs.controller.UserController.login
+[13:58:49:407] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:50) - ARGS :[HL, 12345678, org.apache.catalina.session.StandardSessionFacade@6049189]
+[13:58:49:424] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:61) - RESPONSE :{"status":10000,"msg":"SUCCESS","data":{"id":4,"username":"HL","password":null}}
+[14:10:23:562] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - URL :http://127.0.0.1:8080/register
+[14:10:23:562] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:45) - HTTP_METHOD :POST
+[14:10:23:562] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - IP :127.0.0.1
+[14:10:23:562] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:48) - CLASS_METHODcom.imooc.bbs.controller.UserController.register
+[14:10:23:563] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:50) - ARGS :[Hale, 12345678]
+[14:10:23:596] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:61) - RESPONSE :{"status":10000,"msg":"SUCCESS","data":null}
+[14:10:41:230] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:44) - URL :http://127.0.0.1:8080/login
+[14:10:41:230] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:45) - HTTP_METHOD :POST
+[14:10:41:231] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:46) - IP :127.0.0.1
+[14:10:41:231] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:48) - CLASS_METHODcom.imooc.bbs.controller.UserController.login
+[14:10:41:231] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:50) - ARGS :[Hale, 12345678, org.apache.catalina.session.StandardSessionFacade@6049189]
+[14:10:41:238] [INFO] - com.xiaoao.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:61) - RESPONSE :{"status":10000,"msg":"SUCCESS","data":{"id":5,"username":"Hale","password":null}}
+[14:23:15:215] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+[14:23:15:216] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:350) - bbs - Shutdown initiated...
+[14:23:15:226] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:352) - bbs - Shutdown completed.
